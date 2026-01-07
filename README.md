@@ -38,8 +38,10 @@ This repository serves as:
 ```
 Cybersecurity-Labs-Writeups/
 ├── CyberDefenders/          # CyberDefenders challenge writeups
-├── LetsDefend/              # LetsDefend SOC path and challenges
-└── Templates/               # Reusable writeup templates
+├── Templates/               # Reusable writeup templates
+├── YARA-Rules/              # Custom malware detection rules
+├── Scripts/                 # Python automation scripts
+└── Cheat-Sheets/            # Quick reference guides
 ```
 
 ## Contact
