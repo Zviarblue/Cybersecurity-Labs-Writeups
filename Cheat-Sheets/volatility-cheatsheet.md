@@ -75,6 +75,8 @@ vol.py -f memory.dmp windows.registry.hivelist
 ```bash
 # Vol 3
 vol.py -f memory.dmp windows.registry.printkey --key "Microsoft\Windows\CurrentVersion\Run"
+
+vol.py -f memory.dmp windows.registry.printkey --key "ControlSet001\Control\ComputerName\ComputerName" // to get the computerName (used on rootme)
 ```
 
 ### UserAssist (Recent Programs)
