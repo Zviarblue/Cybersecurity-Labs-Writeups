@@ -2,9 +2,13 @@
 
 ## About Me
 
-Hi! I'm Zviar, a cybersecurity student currently pursuing my AIS degree and looking for an internship/apprenticeship opportunity to further develop my skills in the field.
+Hi! I'm Zviar, a cybersecurity student currently pursuing my AIS degree 
+and looking for an internship/apprenticeship opportunity.
 
-This repository documents my journey through various cybersecurity challenges and labs. Each writeup showcases my analytical approach, technical skills, and continuous learning in areas like digital forensics, incident response, and threat analysis.
+This repository documents **my learning journey** through various 
+cybersecurity challenges and labs. As I progress through my studies, 
+I'm building this portfolio to showcase my developing skills in 
+digital forensics, incident response, and threat analysis.
 
 ## Purpose
 
