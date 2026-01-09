@@ -75,6 +75,7 @@ http contains "password"                   # Cleartext passwords
 http.cookie contains "admin"               # Cookie manipulation
 dns.qry.name contains ".top"               # Suspicious TLDs
 tcp.flags.syn == 1 && tcp.flags.ack == 0   # SYN scan detection
+http contains "cmd="                       # Command injection attempts (used on Cyberdefenders labs JetBrains)
 ```
 
 ### C2 Communication Indicators
