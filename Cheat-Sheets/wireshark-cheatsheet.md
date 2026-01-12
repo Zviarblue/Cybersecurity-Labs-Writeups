@@ -76,6 +76,7 @@ http.cookie contains "admin"               # Cookie manipulation
 dns.qry.name contains ".top"               # Suspicious TLDs
 tcp.flags.syn == 1 && tcp.flags.ack == 0   # SYN scan detection
 http contains "cmd="                       # Command injection attempts (used on Cyberdefenders labs JetBrains)
+tcp.flags == 0x012                         # SYN-ACK packets (Tomcat labs)
 ```
 
 ### C2 Communication Indicators
