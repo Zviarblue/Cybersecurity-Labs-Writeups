@@ -4,6 +4,19 @@ Quick reference for SOC analysts using Splunk for log analysis and threat huntin
 
 ## Basic Search Syntax
 
+### Used on Cyberdefenders Labs
+
+```spl
+AWSRaid
+index="aws_cloudtrail" eventName="*login*" (used after GetLoginProfile)
+index="aws_cloudtrail" eventSource="signin.amazonaws.com" responseElements.ConsoleLogin="Failure"
+index="aws_cloudtrail" "userIdentity.userName"="_user_" eventName=GetObject | stats min(_time) as first_access_timestamp ( https://www.unixtimestamp.com/ convert the timestamp)
+index="aws_cloudtrail" "userIdentity.userName"=_user_" eventName=GetObject "*dwg" (for a file)
+
+
+```
+
+
 ### Simple Searches
 
 ```spl
