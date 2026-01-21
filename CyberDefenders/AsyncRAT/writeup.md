@@ -9,54 +9,49 @@ Scenario: You are a cybersecurity analyst at Globex Corp. A concerning report ha
 
 ## Tools Used
 
-- Tool 1
-- Tool 2
+- [deobfuscate](https://obf-io.deobfuscate.io/)
+- [Cyberchef](https://gchq.github.io/CyberChef/)
 - Tool 3
 
 ## Investigation Methodology
 
-### Question 1: [Question text]
-
-**Analysis Steps:**
-1. First step taken
-2. Second step taken
-3. Additional analysis
-
-**Evidence Found:**
-- Screenshot or description of key findings
+### Question 1: In the process of dissecting the AsyncRAT payload, you discover a variable in the PowerShell script shrouded in complexity. What is the name of this variable that conceals the malicious obfuscated code?
 
 **Answer:** `[Your answer]`
 
 ---
 
-### Question 2: [Question text]
-
-**Analysis Steps:**
-1. Step description
-2. Tool commands used (if applicable)
-
-**Evidence Found:**
-- Key artifacts discovered
+### Question 2: As you trace the AsyncRAT’s steps, you come across a pivotal moment where it reaches out to the internet, fetching the next phase of its invasion. Identify the URL used to download the second stage of this malicious campaign.
 
 **Answer:** `[Your answer]`
 
 ---
 
-## Key Findings Summary
+### Question 3: Within the chaos of encoded data retrieved during your investigation, there's a string that signals the beginning of the encoded code. What is this marker indicating where the encoded treasure lies within the downloaded file?
 
-- **Attack Vector**: [How the attacker gained access]
-- **Indicators of Compromise (IOCs)**:
-  - IP Addresses: 
-  - File Hashes:
-  - Suspicious Files:
-  - Registry Keys:
-- **Timeline**: [Brief timeline of events]
+**Answer:** `[Your answer]`---
 
-## MITRE ATT&CK Mapping
+### Question 4: The second stage of AsyncRAT has been meticulously unpacked, revealing an extracted Portable Executable (PE). To understand this stage's uniqueness, what is the MD5 hash of this extracted PE?
 
-| Tactic | Technique | Description |
-|--------|-----------|-------------|
-| [Tactic] | [T####] - [Technique Name] | [Brief description] |
+**Answer:** `[Your answer]`
+
+---
+
+### Question 5: AsyncRAT seeks to embed itself within the system for long-term espionage. During your sweep, you stumble upon a registry key intended for persistence. Can you provide the full path of this registry key where the malware attempts to solidify its presence?
+
+**Answer:** `[Your answer]`
+
+---
+
+### Question 6: Your analysis doesn't stop at the second stage; the malware has more secrets to unveil. A third stage is downloaded from a URL you need to uncover. What is the URL from which the malware downloads the third stage?
+
+**Answer:** `[Your answer]`
+
+---
+
+### Question 7: With the third stage of AsyncRAT now in focus, another Portable Executable (PE) comes to light. For a comprehensive understanding of this stage, what is the MD5 hash of the extracted PE from the third stage?
+
+**Answer:** `[Your answer]`
 
 ## Lessons Learned
 
@@ -67,7 +62,6 @@ Scenario: You are a cybersecurity analyst at Globex Corp. A concerning report ha
 ## References
 
 - [[Link to challenge]](https://cyberdefenders.org/blueteam-ctf-challenges/asyncrat/)
-- [Additional resources used]
 
 ---
 
