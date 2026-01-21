@@ -5,7 +5,7 @@ Difficulty: Medium
 Category: Malware Analysis
 Scenario: You are a cybersecurity analyst at Globex Corp. A concerning report has come in: an employee opened an email with an attachment claiming to be an order specification, which actually harbored a JavaScript file designed to deploy AsyncRAT. This malware evades detection with alarming efficiency. To secure Globex's network and data, you must analyze the attachment, reverse-engineer the AsyncRAT’s obfuscation techniques, and determine the scope of AsyncRAT's infiltration.
 
-![](AsyncRAT/test.png)
+![test](./AsyncRAT/test.png)
 
 Tools Used
 Tool 1
