@@ -7,49 +7,69 @@ Scenario: You are a cybersecurity analyst at Globex Corp. A concerning report ha
 
 ![test](screenshot/test.png)
 
-Tools Used
-Tool 1
-Tool 2
-Tool 3
-Investigation Methodology
-Question 1: [Question text]
-Analysis Steps:
+## Tools Used
 
-First step taken
-Second step taken
-Additional analysis
-Evidence Found:
+- Tool 1
+- Tool 2
+- Tool 3
 
-Screenshot or description of key findings
-Answer: [Your answer]
+## Investigation Methodology
 
-Question 2: [Question text]
-Analysis Steps:
+### Question 1: [Question text]
 
-Step description
-Tool commands used (if applicable)
-Evidence Found:
+**Analysis Steps:**
+1. First step taken
+2. Second step taken
+3. Additional analysis
 
-Key artifacts discovered
-Answer: [Your answer]
+**Evidence Found:**
+- Screenshot or description of key findings
 
-Key Findings Summary
-Attack Vector: [How the attacker gained access]
-Indicators of Compromise (IOCs):
-IP Addresses:
-File Hashes:
-Suspicious Files:
-Registry Keys:
-Timeline: [Brief timeline of events]
-MITRE ATT&CK Mapping
-Tactic	Technique	Description
-[Tactic]	[T####] - [Technique Name]	[Brief description]
-Lessons Learned
-Key takeaway 1
-Key takeaway 2
-Skills developed or reinforced
-References
-[Link to challenge]
-[Additional resources used]
-Completion Date: [Date]
-Time Spent: [Approximate time]
+**Answer:** `[Your answer]`
+
+---
+
+### Question 2: [Question text]
+
+**Analysis Steps:**
+1. Step description
+2. Tool commands used (if applicable)
+
+**Evidence Found:**
+- Key artifacts discovered
+
+**Answer:** `[Your answer]`
+
+---
+
+## Key Findings Summary
+
+- **Attack Vector**: [How the attacker gained access]
+- **Indicators of Compromise (IOCs)**:
+  - IP Addresses: 
+  - File Hashes:
+  - Suspicious Files:
+  - Registry Keys:
+- **Timeline**: [Brief timeline of events]
+
+## MITRE ATT&CK Mapping
+
+| Tactic | Technique | Description |
+|--------|-----------|-------------|
+| [Tactic] | [T####] - [Technique Name] | [Brief description] |
+
+## Lessons Learned
+
+- Key takeaway 1
+- Key takeaway 2
+- Skills developed or reinforced
+
+## References
+
+- [[Link to challenge]](https://cyberdefenders.org/blueteam-ctf-challenges/asyncrat/)
+- [Additional resources used]
+
+---
+
+**Completion Date**: 21/01/2026 
+**Time Spent**: 2 hours
