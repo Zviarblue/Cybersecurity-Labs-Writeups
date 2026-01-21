@@ -24,6 +24,7 @@ This repository serves as:
 | Lab Name | Difficulty | Category | Tools Used | Status |
 |----------|-----------|----------|------------|--------|
 | [Insider](./CyberDefenders/Insider/) | Easy | Endpoint Forensics | FTK Imager | ✅ Completed |
+| [AsyncRAT](./CyberDefenders/AsyncRAT/) | Medium | Malware Analysis | dnSpy/Cyberchief/notepad++ | ✅ Completed |
 
 ### LetsDefend
 | Path/Challenge | Category | Status |
