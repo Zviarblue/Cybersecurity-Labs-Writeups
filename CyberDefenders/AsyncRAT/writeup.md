@@ -27,7 +27,7 @@ We need to deobfuscate to see a bit better how things looks
 
 i use the chrome console (just not the last variable because of the error) and using the console.log(script) i get the deobfuscated command to get the answer.
 
-![deobfuscate_code_chromeConsole](deobfuscate_code_chromeConsole.png)
+![deobfuscate_code_chromeConsole](screenshot/deobfuscate_code_chromeConsole.png)
 
 **Answer:** `Codigo`
 
@@ -37,7 +37,7 @@ i use the chrome console (just not the last variable because of the error) and u
 
 With the result of the chrome console i put the content of the codigo into cyberchief but we replace the the queen and king by a b character to get the information we need and we can see the URL used as answer.
 
-![Decoded_Base64Data](Decoded_Base64Data.png)
+![Decoded_Base64Data](screenshot/Decoded_Base64Data.png)
 
 **Answer:** `https://gcdnb.pbrd.co/images/rYspxkzT3K6k.png`
 
@@ -55,11 +55,11 @@ staying on the same page i can see the answer to the 3rd question which is the s
 
 We open the image found previously on our notepad++ (or vsStudio) and we go to the part where we have the string with answer 3 and we copy paste it in our cyberchief with a base64 decoder to see we got a PE where we can download and analyse it
 
-![PE_inThePNG](PE_inThePNG.png)
+![PE_inThePNG](screenshot/PE_inThePNG.png)
 
 Just open a powershell to get the answer for the MD5 hash
 
-![HashMD5](HashMD5.png)
+![HashMD5](screenshot/HashMD5.png)
 
 **Answer:** `C1AA076CA869A7520CA2E003B7C02AB3`
 
@@ -69,7 +69,7 @@ Just open a powershell to get the answer for the MD5 hash
 
 For this one we use the dnSpy where we put our payload to analyse it, in the classLibrary3 and Run() we analyse it and found a part for the registryKey with the path for it, its in reverse so we use again cyberchief just with a reverse function to get the answer.
 
-![DecompiledCode_dnSpy](DecompiledCode_dnSpy.png)
+![DecompiledCode_dnSpy](screenshot/DecompiledCode_dnSpy.png)
 
 **Answer:** `HKCU\Software\Microsoft\Windows\CurrentVersion\Run`
 
@@ -79,7 +79,7 @@ For this one we use the dnSpy where we put our payload to analyse it, in the cla
 
 Scrolling a bit down we get a string that caught our attention, the StrReverse one where we can see a url in it (https in reverse who gave the hint), same thing for previous question we just reverse it to get the right URL
 
-![ThirdStageDownload](ThirdStageDownload.png)
+![ThirdStageDownload](screenshot/ThirdStageDownload.png)
 
 **Answer:** `https://web.archive.org/web/20240701132151if_/https://gcdnb.pbrd.co/images/L3GM1EngRrYs.png`
 
@@ -89,7 +89,7 @@ Scrolling a bit down we get a string that caught our attention, the StrReverse o
 
 Like for the previous one we download the image on the link and get the code between the start and end of base64 and we put it in cyberchief (with the reverse function first before) to get the PE we need
 
-![3rdPayload_Reverse](3rdPayload_Reverse.png)
+![3rdPayload_Reverse](screenshot/3rdPayload_Reverse.png)
 
 And after we use the powershell command to get the MD5 hash
 
