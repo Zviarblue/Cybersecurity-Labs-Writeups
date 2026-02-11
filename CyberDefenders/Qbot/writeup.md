@@ -5,7 +5,6 @@ Difficulty: Medium
 Category: Endpoint Forensics
 Scenario: A company's security team detected unusual network activity linked to a potential malware infection. As a forensic analyst, your mission is to investigate a memory dump, identify the malicious process, extract artifacts, and uncover Command and Control (C2) communications. Using Volatility3, analyze the attack, trace its origin, and provide actionable intelligence.
 
-![Scenario Screen](screenshot/initialImage.png)
 
 ## Tools Used
 
