@@ -14,7 +14,11 @@ Scenario: A company's security team detected unusual network activity linked to 
 
 ### Question 1: Our first step is identifying the initial point of contact the malware made with an external server. Can you specify the first IP address the malware attempted to communicate with?
 
-**Answer:** ``
+We see via a netscan on the dump that there a connection on a port 80 (http) who are closed that give us the hint that it's the IP the malware contacted.
+
+<img width="1267" height="357" alt="2026-02-12_16-15" src="https://github.com/user-attachments/assets/f6f6458e-5806-4877-86e7-ddcce580e560" />
+
+**Answer:** `94.140.112.73`
 
 ---
 
