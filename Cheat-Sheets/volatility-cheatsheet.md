@@ -2,6 +2,11 @@
 
 Quick reference for memory forensics using Volatility 3.
 
+graph cheat sheet :
+
+![Volatility-3-for-Windows-Cheatsheet-scaled](https://github.com/user-attachments/assets/33376bc1-2d81-4d5c-999f-301482ae265f)
+
+
 ## Basic Usage
 
 ### Volatility 3
