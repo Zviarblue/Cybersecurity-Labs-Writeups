@@ -1,5 +1,5 @@
 AsyncRAT
-Challenge Information
+
 Platform: CyberDefenders
 Difficulty: Medium
 Category: Malware Analysis
