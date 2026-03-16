@@ -60,6 +60,7 @@ champ:[100 TO 500]              # Range inclusif
 | 4698 | Tâche planifiée créée |
 | 7045 | Nouveau service installé |
 | 5140 | Partage réseau accédé |
+| 4929 | DCShadow Attack |
 
 ## Sysmon Event IDs Clés
 
