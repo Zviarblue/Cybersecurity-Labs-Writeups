@@ -25,6 +25,7 @@ This repository serves as:
 |----------|-----------|----------|------------|--------|
 | [Insider](./CyberDefenders/Insider/) | Easy | Endpoint Forensics | FTK Imager | ✅ Completed |
 | [AsyncRAT](./CyberDefenders/AsyncRAT/) | Medium | Malware Analysis | dnSpy/Cyberchief/notepad++ | ✅ Completed |
+| [ShadowRoast](./CyberDefenders/ShadowRoast/) | Medium | Threat Hunting | Splunk/EventLogExplorer | ✅ Completed |
 
 ### LetsDefend
 | Path/Challenge | Category | Status |
