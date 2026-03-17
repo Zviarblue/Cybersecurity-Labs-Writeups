@@ -13,7 +13,6 @@ Your task is to analyze the provided logs to uncover the attack's extent and ide
 
 -Splunk
 -Event Log Explorer
--CyberChef
 
 ## Investigation Methodology
 
