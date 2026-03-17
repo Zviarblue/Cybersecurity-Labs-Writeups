@@ -11,8 +11,8 @@ Your task is to analyze the provided logs to uncover the attack's extent and ide
 
 ## Tools Used
 
--Splunk
--Event Log Explorer
+- Splunk
+- Event Log Explorer
 
 ## Investigation Methodology
 
@@ -124,14 +124,14 @@ In the log we see the name of the compressed file which is CrashDump.zip
 
 ## Lessons Learned
 
--Search of the attacks (like DCshadow)
--analyse of log 
+- Search of the attacks (like DCshadow)
+- analyse of log 
 
 --- 
 
 ## References
 
-- [[Link to challenge]]((https://cyberdefenders.org/blueteam-ctf-challenges/shadowroast/))
+- [Link to challenge](https://cyberdefenders.org/blueteam-ctf-challenges/shadowroast/)
 
 ---
 
