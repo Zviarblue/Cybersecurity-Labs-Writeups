@@ -173,6 +173,7 @@ ftp-data                        # FTP data transfers
 ```
 http.authbasic                  # HTTP Basic Auth
 ftp.request.command == "PASS"   # FTP passwords
+ftp.response.code == 230        # Successfull auth
 smtp.req.command == "AUTH"      # SMTP authentication
 telnet contains "Password:"     # Telnet passwords
 ```
